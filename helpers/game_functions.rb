@@ -1,3 +1,6 @@
+require_relative 'move_functions'
+require_relative 'piglatin_functions'
+require_relative 'io_functions'
 require 'colorize'
 
 def game(input)
