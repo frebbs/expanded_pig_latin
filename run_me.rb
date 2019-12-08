@@ -6,7 +6,7 @@ require_relative 'helpers/io_functions'
 require_relative 'helpers/game_functions'
 #require 'colorize'
 
-
+system "clear"
 puts "Welcome to insta-magic pig latin!"
 puts "Manual input or load text file?"
 

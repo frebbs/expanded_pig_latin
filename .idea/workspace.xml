@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71100607-3058-4704-b2e9-4022cac16a31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/text.RPLT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/game_functions.rb" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/game_functions.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/io_functions.rb" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/io_functions.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/move_functions.rb" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/move_functions.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_me.rb" beforeDir="false" afterPath="$PROJECT_DIR$/run_me.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575820318886</updated>
       <workItem from="1575820321134" duration="7627000" />
-      <workItem from="1575833477295" duration="1937000" />
+      <workItem from="1575833477295" duration="2452000" />
     </task>
     <servers />
   </component>

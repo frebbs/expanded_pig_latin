@@ -24,7 +24,7 @@ def game(input)
     puts "Enter a sentence to translate"
     user_sentence = gets.chomp
     translation = pig_latin_sentence_translator(user_sentence)
-    puts translation
+    puts translation.red
     save_mode = 1
     save_output(translation, save_mode)
   else

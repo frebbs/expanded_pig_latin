@@ -24,6 +24,7 @@ end
 
 def save_output(data_to_save, save_mode)
   puts "Would you like to save the output to a text file?"
+  puts "y for Yes.\tn for No."
   user_choice = gets.chomp
   if user_choice == 'y'
     if save_mode == 1
