@@ -77,7 +77,7 @@ end
 def game(input)
 
 
-  save_node = nil
+  save_mode = nil
   user_choice = input
 
     if user_choice == 'f'
@@ -93,16 +93,16 @@ def game(input)
         puts pig_latin_sentence_translator(line).red.downcase.capitalize
         sleep(0.3)
       end
-      save_node = 0
-      save_output(data_to_save, save_node)
+      save_mode = 0
+      save_output(data_to_save, save_mode)
       puts "End of translation!"
     elsif user_choice == 'm'
       puts "Enter a sentence"
       user_sentence = gets.chomp
       translation = pig_latin_sentence_translator(user_sentence)
       puts translation
-      save_node = 1
-      save_output(translation, save_node)
+      save_mode = 1
+      save_output(translation, save_mode)
     else
       puts "Googbye"
     end
