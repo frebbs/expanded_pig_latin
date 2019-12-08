@@ -32,10 +32,41 @@ def open_file(file_name)
   lines
 end
 
+def save_manual_input(string)
+  File.open('text.RPLT', 'a') do |file|
+      file.print "#{string}\n".capitalize
+  end
+end
+
+def save_file(array)
+  File.open('text.RPLT', 'a') do |file|
+    array.each do |line|
+      file.print "#{line}\n".capitalize
+    end
+  end
+end
+
+def save_output(data_to_save, save_mode)
+  puts "Would you like to save the output to a text file?"
+  user_choice = gets.chomp
+  if user_choice == 'y'
+    if save_mode == 1
+      save_manual_input(data_to_save)
+      puts "Save completed Manaual"
+    else
+      save_file(data_to_save)
+      puts "Save Completed Automatic"
+    end
+
+  else
+    puts "Goodbye!"
+  end
+end
+
 def move
   input = nil
   until input == "f" || input == "m" || input == 'e'
-    puts "F for file	M for manual, E for Exit"
+    puts "F for file	M for manual\nE for Exit"
     input = gets.chomp.downcase
   end
   input
@@ -44,6 +75,7 @@ end
 def game(input)
 
 
+  save_node = nil
   user_choice = input
 
     if user_choice == 'f'
@@ -53,23 +85,31 @@ def game(input)
       puts "Please wait, opening #{file_name}"
       sleep(1)
       opened_file = open_file(file_name)
+      data_to_save = []
       opened_file.each do |line|
-        puts pig_latin_sentence_translator(line).red
+        data_to_save.push(pig_latin_sentence_translator(line).downcase.capitalize)
+        puts pig_latin_sentence_translator(line).red.downcase.capitalize
         sleep(0.3)
       end
-      puts "End of translation, goodbye!"
+      save_node = 0
+      save_output(data_to_save, save_node)
+      puts "End of translation!"
     elsif user_choice == 'm'
       puts "Enter a sentence"
       user_sentence = gets.chomp
-      puts pig_latin_sentence_translator(user_sentence)
-      puts "Thanks for playing"
-    elsif user_choice == 'e'
-      puts "Good bye!"
+      translation = pig_latin_sentence_translator(user_sentence)
+      puts translation
+      save_node = 1
+      save_output(translation, save_node)
+    else
+      puts "Googbye"
     end
 
 end
 
 puts "Welcome to insta-magic pig latin!"
-puts "Manual input or load file?"
+puts "Manual input or load text file?"
+
 user_choice = move
 game(user_choice)
+
