@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71100607-3058-4704-b2e9-4022cac16a31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pig_latin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pig_latin.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575820318886</updated>
-      <workItem from="1575820321134" duration="6914000" />
+      <workItem from="1575820321134" duration="7211000" />
     </task>
     <servers />
   </component>
@@ -89,24 +89,24 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1575827541845">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1575828085336">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541845" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1575827541844">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575828085336" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1575828085334">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541844" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1575827541843">
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575828085334" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1575828085333">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541843" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1575827541845">
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575828085333" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1575828085335">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541845" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575828085335" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pig_latin@pig_latin.rcov" NAME="pig_latin Coverage Results" MODIFIED="1575827367613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pig_latin" />
+    <SUITE FILE_PATH="coverage/pig_latin@pig_latin.rcov" NAME="pig_latin Coverage Results" MODIFIED="1575828085291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pig_latin" />
   </component>
 </project>
