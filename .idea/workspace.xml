@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71100607-3058-4704-b2e9-4022cac16a31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pig_latin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pig_latin.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/game_functions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/io_functions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/move_functions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/piglatin_functions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_me.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pig_latin.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,15 +19,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/pig_latin.rb" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/run_me.rb" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1UhsmEaFucl0QugDM00RgTlbxFx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -32,8 +42,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/helpers" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="pig_latin" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="run_me" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="pig_latin" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -47,13 +62,13 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/pig_latin.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/run_me.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.pig_latin" />
+        <item itemvalue="Ruby.run_me" />
       </list>
     </recent_temporary>
   </component>
@@ -81,32 +96,39 @@
       <option name="presentableId" value="Default" />
       <updated>1575820318886</updated>
       <workItem from="1575820321134" duration="7627000" />
-      <workItem from="1575833477295" duration="485000" />
+      <workItem from="1575833477295" duration="1268000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1575833674117">
+    <state x="537" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575834834190">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575833674117" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1575833674115">
+    <state x="537" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1575834834190" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1575835172185">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575833674115" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1575833674114">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575835172185" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1575835172183">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575833674114" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1575833674116">
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575835172183" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1575835172183">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575833674116" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575835172183" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1575835172184">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575835172184" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pig_latin@pig_latin.rcov" NAME="pig_latin Coverage Results" MODIFIED="1575833674069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pig_latin" />
+    <SUITE FILE_PATH="coverage/pig_latin@pig_latin.rcov" NAME="run_me Coverage Results" MODIFIED="1575835172127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pig_latin" />
   </component>
 </project>
