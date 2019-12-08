@@ -54,10 +54,10 @@ def save_output(data_to_save, save_mode)
   if user_choice == 'y'
     if save_mode == 1
       save_manual_input(data_to_save)
-      puts "Save completed Manaual"
+      puts "Save completed"
     else
       save_file(data_to_save)
-      puts "Save Completed Automatic"
+      puts "Save Completed"
     end
 
   else
@@ -68,7 +68,7 @@ end
 def move
   input = nil
   until input == "f" || input == "m" || input == 'e'
-    puts "F for file	M for manual\nE for Exit"
+    puts "F. for file	M. for manual\nE. To exit"
     input = gets.chomp.downcase
   end
   input
@@ -81,7 +81,7 @@ def game(input)
   user_choice = input
 
     if user_choice == 'f'
-      puts "1st choice, load from a file"
+      puts "Load from a file"
       puts "Please enter a file name"
       file_name = gets.chomp
       puts "Please wait, opening #{file_name}"
@@ -97,7 +97,7 @@ def game(input)
       save_output(data_to_save, save_mode)
       puts "End of translation!"
     elsif user_choice == 'm'
-      puts "Enter a sentence"
+      puts "Enter a sentence to translate"
       user_sentence = gets.chomp
       translation = pig_latin_sentence_translator(user_sentence)
       puts translation
