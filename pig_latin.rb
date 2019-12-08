@@ -1,3 +1,5 @@
+# Created by Aaron Diable - December 8th 2019
+
 require 'colorize'
 
 def pig_latin_sentence_translator(string)

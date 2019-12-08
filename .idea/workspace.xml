@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575820318886</updated>
-      <workItem from="1575820321134" duration="6661000" />
+      <workItem from="1575820321134" duration="6914000" />
     </task>
     <servers />
   </component>
@@ -89,22 +89,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1575827367670">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1575827541845">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575827367670" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1575827367668">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541845" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1575827541844">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575827367668" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1575827367667">
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541844" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1575827541843">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575827367667" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1575827367669">
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541843" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1575827541845">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575827367669" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1575827541845" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pig_latin@pig_latin.rcov" NAME="pig_latin Coverage Results" MODIFIED="1575827367613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="pig_latin" />
